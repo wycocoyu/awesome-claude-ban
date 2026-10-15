@@ -50,6 +50,7 @@
 - [claude-post-ban-cleanup](https://github.com/l2461090/claude-post-ban-cleanup) - 清理本机 Claude 登录状态与浏览器记录的 Skill，先列出清单，确认后才执行，并保留恢复副本.
 - [whack-a-claude](https://github.com/wangteakwoo-wq/whack-a-claude) - 先备份个人配置再重置本机 Claude 环境的脚本，删除前要求备份存在并手动输入 YES.
 - [iOS Claude Something Went Wrong 修复](https://github.com/qihanyue/-iOS-Claude-something-went-wrong-Windows-) - 封号后 iOS 客户端一直报错时，用 Charles 抓包修复自有账号的手动教程，需要 Windows 电脑.
+- [cc-clean](https://github.com/luwill/cc-clean) - Codex 和 Claude Code 通用的 Skill，先只读扫描旧账号残留与会话关联并生成离线 HTML 报告，校验备份后才按确认清单清理，上面那篇微信文章的作者开发.
 
 ## 环境一致性工具
 
@@ -66,6 +67,7 @@
 
 - [用了 2 年的 Claude 账号 10.5 凌晨 2 点被封了](https://www.v2ex.com/t/1246477) - V2EX 2026 年 10 月的亲历帖，含申诉和清理本机的做法.
 - [我用了快 3 年的 Claude 老号也被封了](https://zhuanlan.zhihu.com/p/2075138363078751118) - 知乎长文，作者把导出数据交给 AI 按时间线和官方规则分析最可能的封号原因.
+- [Claude Code 封号后，如何清理本地遥测数据](https://mp.weixin.qq.com/s/maILsIRaTDGAC0N5MkFVtA) - 微信公众号 AI编程实验室 2026 年 10 月的实测文章，逐个说明 Mac 上旧账号残留的五个位置：遥测失败队列、`~/.claude.json`、系统钥匙串、`CLAUDE_CONFIG_DIR` 独立目录和含明文密钥的 `history.jsonl`.
 - [Anthropic 惹众怒：145 万账号「祭天」](https://m.36kr.com/p/3763806573277959) - 36 氪 2026 年 4 月的报道，梳理大规模停用事件和官方帮助中心的说法.
 - [账号为什么被封](https://x.com/yanxi067/status/2100469616783102183) - X 上的长帖，从政策、支付、环境三层解释 Claude 为什么比其他产品封得更严.
 - [Claude 账号封禁与解封经验](https://x.com/okooo5km/status/2033455780607979663) - X 上的短帖，作者分享自己被封后解封的两点经验.
